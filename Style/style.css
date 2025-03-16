@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(44, 230, 255);
+}
+.container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  background-color: yellow;
+}
+
+.in-width {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid rgb(182, 182, 182);
+  border-radius: 5px;
+}
+
+.submit {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: green;
+  margin-right: 15px;
+}
+
+.reset {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff3f3f;
+  margin-right: 15px;
+}

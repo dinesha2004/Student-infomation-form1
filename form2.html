@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./Style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student infomation Form</h1>
+      <form>
+        <h3>Name with Initials:</h3>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter Your name"
+          class="in-width"
+        /><br />
+
+        <h3>Index Number</h3>
+        <input
+          type="text"
+          id="number"
+          name="Number"
+          placeholder="TG/202X/XXXX"
+          class="in-width"
+        /><br />
+
+        <h3>Address</h3>
+        <input
+          type="text"
+          id="address"
+          name="address"
+          placeholder="Enter Your Address"
+          class="in-width"
+        /><br />
+
+        <h3>Faculty</h3>
+        <select name="faculty" id="faculty" class="in-width">
+          <option value="art">Art</option>
+          <option value="Medical">Medical</option>
+          <option value="technology">Technology</option>
+          <option value="engineering">Engineering</option></select
+        ><br />
+
+        <h3>Year of Study</h3>
+        <div style="display: flex; gap: 20px">
+          <div>
+            <input type="radio" name="level1" />
+            <h5>Level 1</h5>
+          </div>
+          <div>
+            <input type="radio" name="level2" />
+            <h5>Level 2</h5>
+          </div>
+          <div>
+            <input type="radio" name="level3" />
+            <h5>Level 3</h5>
+          </div>
+          <div>
+            <input type="radio" name="level4" />
+            <h5>Level 4</h5>
+          </div>
+        </div>
+
+        <h3>Passed English Levels:</h3>
+        <div style="display: flex; gap: 20px">
+          <div>
+            <input type="checkbox" name="Basic" />
+            <h5>Basic</h5>
+          </div>
+          <div>
+            <input type="checkbox" name="Intermediate" />
+            <h5>Intermediate</h5>
+          </div>
+          <div>
+            <input type="checkbox" name="Advanced" />
+            <h5>Advanced</h5>
+          </div>
+        </div>
+
+        <h3>Date Of Birth:</h3>
+        <input type="date" name="date" class="in-width" /><br />
+
+        <h3>Gender:</h3>
+        <div style="display: flex; gap: 20px">
+          <div>
+            <input type="radio"" name="male" id="male">
+            <h5>Male</h5>
+          </div>
+          <div>
+            <input type="radio"" name="female" id="female">
+            <h5>Female</h5>
+          </div>
+          <div>
+            <input type="radio"" name="other" id="other">
+            <h5>Other</h5>
+          </div>
+        </div>
+
+        <h3>Email</h3>
+        <input
+          type="text"
+          name="email"
+          id="email"
+          class="in-width"
+          placeholder="Enter Your Email"
+        /><br />
+
+        <h3>Phone Number</h3>
+        <input
+          type="text"
+          name="Phone"
+          id="phone"
+          class="in-width"
+          placeholder="Enter Your Phone Number"
+        /><br />
+
+        <h3>Courses Selected:</h3>
+        <div style="display: flex; gap: 20px">
+          <div>
+            <input type="checkbox" name="mathematic" id="mathematic" />
+            <h5>Mathematics</h5>
+          </div>
+          <div>
+            <input type="checkbox" name="Computersc" id="Computersc" />
+            <h5>Computer Science</h5>
+          </div>
+          <div>
+            <input type="checkbox" name="physics" id="physics" />
+            <h5>physics</h5>
+          </div>
+          <div>
+            <input type="checkbox" name="Biology" id="Biology" />
+            <h5>Biology</h5>
+          </div>
+        </div>
+        <center>
+          <input type="submit" value="submit" class="submit" />
+          <input type="submit" value="reset" class="reset" />
+        </center>
+      </form>
+    </div>
+  </body>
+</html>
